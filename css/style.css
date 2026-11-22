@@ -806,3 +806,5 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .hero__title { font-size: clamp(38px, 4.9vw, 72px); }
 .hero__title em { display: inline; }
 @media (max-width: 640px) { .hero__title { font-size: clamp(30px, 9vw, 42px); } }
+.nav a { white-space: nowrap; }
+@media (min-width: 961px) and (max-width: 1200px) { .nav { gap: 18px; } .nav a:not(.btn) { font-size: 14px; } .logo__text small { letter-spacing: .06em; } }
